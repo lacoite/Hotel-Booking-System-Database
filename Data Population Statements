@@ -1,0 +1,99 @@
+INSERT INTO company (Company_ID, Company_Name, Company_address, Company_number, company_email, company_description, company_website) VALUES (0001, 'Marriot', '28530 Emerald St. Lakeland FL 29647', 2074386275, 'Marriot@gmail.com', 'We own great hotels!', 'Marriot.Com'); 
+INSERT INTO company (Company_ID, Company_Name, Company_address, Company_number, company_email, company_description, company_website) VALUES (0002, 'Hilton', '64396 Grassy St. Orange FL 92648', 1964930267, 'Hilton@gmail.com', 'We own great hotels!', 'Hilton.Com'); 
+INSERT INTO company (Company_ID, Company_Name, Company_address, Company_number, company_email, company_description, company_website) VALUES (0003, 'Days Inn', '96386 Grassy St. Orange FL 92648', 8490382675, 'Days_Inn@gmail.com', 'We own great hotels!', 'DaysInn.Com'); 
+INSERT INTO company (Company_ID, Company_Name, Company_address, Company_number, company_email, company_description, company_website) VALUES (0004, 'Holiday Inn', '28195 Marriott St. Lakeland FL 29467', 1954839023, 'Holiday_Inn@gmail.com', 'We own great hotels!', 'HolidayInn.Com'); 
+INSERT INTO company (Company_ID, Company_Name, Company_address, Company_number, company_email, company_description, company_website) VALUES (0005, 'Barns&Noble', '28195 Barn St. Winter Garden FL 34787', 1234567890, 'Barns@gmail.com', 'We own great hotels!', 'Barns.Com'); 
+INSERT INTO Hotel (Hotel_ID, Company_ID, Hotel_Name, Hotel_Number, Hotel_Email, Hotel_Description, Hotel_Website) VALUES (1001, 0001, 'LBD Suites', 7073224545, 'contact@LBDSuites.com', '5 Star Hotel', 'LBDSuites.com');
+INSERT INTO Hotel (Hotel_ID, Company_ID, Hotel_Name, Hotel_Number, Hotel_Email, Hotel_Description, Hotel_Website) VALUES (1002, 0002, 'Hilton Orange Inn', 2349870202, 'contact@HiltonOrangeInn.com', '4 Star Hotel', 'HiltonOrangeInn.com');
+INSERT INTO Hotel (Hotel_ID, Company_ID, Hotel_Name, Hotel_Number, Hotel_Email, Hotel_Description, Hotel_Website) VALUES (1003, 0003, 'New Days Resort', 9545622144, 'contact@NewDaysResort.com', '5 Star Resort', 'NewDaysResort.com');
+INSERT INTO Hotel (Hotel_ID, Company_ID, Hotel_Name, Hotel_Number, Hotel_Email, Hotel_Description, Hotel_Website) VALUES (1004, 0004, 'Holiday Stays', 3657894656, 'contact@HolidayStays.com', '3 Star Hotel', 'HolidayStays.com');
+INSERT INTO Hotel (Hotel_ID, Company_ID, Hotel_Name, Hotel_Number, Hotel_Email, Hotel_Description, Hotel_Website) VALUES (1005, 0005, 'Barns and Books Bookings', 7071253521, 'contact@BarnsAndBooks.com', '4 Star Hotel', 'BookBarnsAndBooks.com');
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2001, 1001, 'Customer Service', 'Oversees all aspects of customer service', 180000000, 2800);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2002, 1001, 'Food and Beverage', 'Oversees all aspects of guest dining and food service', 13000000, 1300);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2003, 1001, 'Marketing and Budgeting', 'Oversees all aspects of hotel marketing and budgeting', 280000000, 567);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2004, 1002, 'Customer Service', 'Oversees all aspects of customer service', 13000000, 2300);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2005, 1002, 'Food and Beverage', 'Oversees all aspects of guest dining and food service', 11000000, 890);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2006, 1002, 'Marketing and Budgeting', 'Oversees all aspects of hotel marketing and budgeting', 197000000, 346);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2007, 1003, 'Customer Service', 'Oversees all aspects of customer service', 170000000, 1980);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2008, 1003, 'Food and Beverage', 'Oversees all aspects of guest dining and food service', 11600000, 760);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2009, 1003, 'Marketing and Budgeting', 'Oversees all aspects of hotel marketing and budgeting', 265000000, 500);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2010, 1004, 'Customer Service', 'Oversees all aspects of customer service', 8900000, 1200);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2011, 1004, 'Food and Beverage', 'Oversees all aspects of guest dining and food service', 2800000, 320);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2012, 1004, 'Marketing and Budgeting', 'Oversees all aspects of hotel marketing and budgeting', 46500000, 220);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2013, 1005, 'Customer Service', 'Oversees all aspects of customer service', 12700000, 2200);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2014, 1005, 'Food and Beverage', 'Oversees all aspects of guest dining and food service', 10500000, 770);
+INSERT INTO Departments (Department_ID, Hotel_ID, Department_Name, Department_Description, Department_Budget, Num_Of_Employees) VALUES (2015, 1005, 'Marketing and Budgeting', 'Oversees all aspects of hotel marketing and budgeting', 173000000, 298);
+
+INSERT INTO employees VALUES (3001, 2001, 'Bob', 'Miller', DATE '2015-12-02', 1000, 1230, 'receptionist'); 
+INSERT INTO employees VALUES (3002, 2004, 'Jake', 'Brown', DATE '2015-10-07', 1200, 1800, 'receptionist'); 
+INSERT INTO employees VALUES (3003, 2001, 'Sally', 'Butterscotch', DATE '2000-08-07', 0800, 1600, 'manager'); 
+INSERT INTO employees VALUES (3004, 2008, 'Mike', 'Lemon', DATE '2000-08-07', 1600, 2400, 'manager'); 
+INSERT INTO employees VALUES (3005, 2002, 'Markus', 'Smith', DATE '2012-11-10', 0800, 1800, 'cleaning_staff'); 
+INSERT INTO employees VALUES (3006, 2007, 'Britnie', 'Moores', DATE '2010-11-17', 1030, 0900, 'receptionist'); 
+INSERT INTO employees VALUES (3007, 2010, 'Artie', 'Zackers', DATE '2013-02-09', 1230, 1630, 'receptionist'); 
+INSERT INTO employees VALUES (3008, 2014, 'Amy', 'Regoth', DATE '2001-04-20', 0800, 1800, 'receptionist'); 
+INSERT INTO employees VALUES (3009, 2015, 'Mike', 'Lemon', DATE '2000-08-07', 1630, 2400, 'manager'); 
+INSERT INTO employees VALUES (3010, 2005, 'Javon', 'Whicks', DATE '2018-11-03', 0100, 1300, 'cleaning_staff');
+INSERT INTO employees VALUES (3011, 2008, 'Cleo', 'Yimms', DATE '2003-03-11', 0800, 1630, 'cleaning_staff'); 
+INSERT INTO employees VALUES (3012, 2011, 'Noah', 'Clobb', DATE '2012-02-27', 0200, 1030, 'cleaning_staff'); 
+INSERT INTO employees VALUES (3013, 2014, 'Tiffany', 'Ordaith', DATE '2019-09-18', 1200, 2400, 'cleaning_staff');
+INSERT INTO employees VALUES (3014, 2012, 'Ani', 'Unzi', DATE '2001-04-02', 0800, 2000, 'manager'); 
+INSERT INTO employees VALUES (3015, 2003, 'Olivia', 'Quips', DATE '2000-12-23', 1600, 0800, 'manager'); 
+
+INSERT INTO receptionist VALUES (3001, 0020, 0065, 'Bobmiller@hotmail.com'); 
+INSERT INTO receptionist VALUES (3002, 0100, 0045, 'LitFlame42@hotmail.com'); 
+INSERT INTO receptionist VALUES (3006, 0245, 1299, 'BigChunk12@hotmail.com'); 
+INSERT INTO receptionist VALUES (3007, 1998, 5678, 'Notdum88@hotmail.com'); 
+INSERT INTO receptionist VALUES (3008, 1200, 245, 'Insertemailhere@hotmail.com'); 
+
+INSERT INTO manager VALUES (3003, 2001, 'Customer Service Manager', 'Bachelors'); 
+INSERT INTO manager VALUES (3004, 2008, 'Food and Beverage Manager', 'Masters'); 
+INSERT INTO manager VALUES (3009, 2015, 'Marketing and Budgeting Manager', 'Masters'); 
+INSERT INTO manager VALUES (3014, 2011, 'Food and Beverage Manager', 'Bachelors'); 
+INSERT INTO manager VALUES (3015, 2003, 'Marketing and Budgeting Manager', 'Masters'); 
+INSERT INTO building VALUES (4001, 1001, 0022, 'Lakeland FL', date '2022-04-12', date '2012-06-07');
+INSERT INTO building VALUES (4002, 1002, 0050, 'Birch OH', date '2022-01-09', date '2000-07-22');
+INSERT INTO building VALUES (4003, 1003, 0005, 'Seattle WA', date '2021-06-09', date '2000-12-31');
+INSERT INTO building VALUES (4004, 1004, 0013, 'Urbandale VA', date '2020-11-30', date '2014-10-12');
+INSERT INTO building VALUES (4005, 1005, 0018, 'Tokyo NY', date '2021-06-09', date '2009-05-22');
+
+INSERT INTO floor VALUES(01, 4001, 25, 1, 1);
+INSERT INTO floor VALUES(02, 4002, 34, 1, 0);
+INSERT INTO floor VALUES(03, 4003, 29, 0, 1);
+INSERT INTO floor VALUES(04, 4004, 40, 0, 0);
+INSERT INTO floor VALUES(05, 4005, 32, 0, 1);
+
+INSERT INTO cleaning_staff VALUES (3005, 01, 0200, 0010, 1); 
+INSERT INTO cleaning_staff VALUES (3010, 02, 0070, 0020, 0); 
+INSERT INTO cleaning_staff VALUES (3011, 03, 0010, 0340, 1); 
+INSERT INTO cleaning_staff VALUES (3012, 04, 1000, 0120, 1); 
+INSERT INTO cleaning_staff VALUES (3013, 05, 0680, 0670, 0); 
+
+INSERT INTO room_type VALUES (1012, 'Suite', 1200, 2, 2);
+INSERT INTO room_type VALUES (2004, 'Single', 425, 1, 1);
+INSERT INTO room_type VALUES (3047, 'Quad', 630, 4, 2);
+INSERT INTO room_type VALUES (4008, 'Deluxe room', 800, 4, 2);
+INSERT INTO room_type VALUES (5042, 'Presidential suite', 2500, 1, 1);
+INSERT INTO rooms VALUES (1011, 01, 1012, 1, date '2022-04-12'); 
+INSERT INTO rooms VALUES (2012, 02, 1012, 0, date '2022-04-12'); 
+INSERT INTO rooms VALUES (3045, 03, 2004, 0, date '2022-03-18'); 
+INSERT INTO rooms VALUES (4037, 04, 4008, 1, date '2022-04-12'); 
+INSERT INTO rooms VALUES (5001, 05, 5042, 0, date '2022-02-22');
+
+INSERT INTO GUESTS VALUES (209, 'Jefferson', 'Tasha', NULL, DATE '1990-11-14', 'Visa');
+INSERT INTO GUESTS VALUES (124, 'Craft', 'Jordan', 'M', DATE '2001-06-17', 'Mastercard');
+INSERT INTO GUESTS VALUES (169, 'Smith', 'Andrew', 'W', DATE '1987-03-23', 'American Express');
+INSERT INTO GUESTS VALUES (170, 'Cunningham', 'Cindy', 'I', DATE '1999-09-11', 'Discover');
+INSERT INTO GUESTS VALUES (201, 'Robertson', 'James', NULL, DATE '2001-01-23',  'Citi');
+
+INSERT INTO RESERVATIONS VALUES (7001, 209, 3001, DATE '2020-02-10', DATE '2020-02-17', 0830, 1100);
+INSERT INTO RESERVATIONS VALUES (7002, 124, 3002, DATE '2008-03-18', DATE '2008-03-20', 0800, 1200);
+INSERT INTO RESERVATIONS VALUES (7003, 169, 3001, DATE '2019-09-07', DATE '2020-09-02', 0930, 0830);
+INSERT INTO RESERVATIONS VALUES (7004, 170, 3007, DATE '2017-11-20', DATE '2017-11-27', 0900, 0900);
+INSERT INTO RESERVATIONS VALUES (7005, 201, 3008, DATE '2021-01-13', DATE '2021-01-15', 0130, 1000);
+
+INSERT INTO ROOMS_BOOKED VALUES(2012, 7001);
+INSERT INTO ROOMS_BOOKED VALUES(2012, 7004);
+INSERT INTO ROOMS_BOOKED VALUES(5001, 7003);
+INSERT INTO ROOMS_BOOKED VALUES(4037, 7003);
+INSERT INTO ROOMS_BOOKED VALUES(1011, 7005);
