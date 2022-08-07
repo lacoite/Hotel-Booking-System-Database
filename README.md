@@ -1,2 +1,2 @@
 # HotelManagementDatabase
-An SQL project created to model a database management system for a hotel company
+An SQL project created to model a booking system database for a hotel company
